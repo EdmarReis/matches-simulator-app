@@ -1,4 +1,10 @@
 package me.dio.simulator.domain
 
-class Team {
-}
+data class Team (
+
+    val name: String,
+    val stars: Int,
+    val image: String
+
+
+)
